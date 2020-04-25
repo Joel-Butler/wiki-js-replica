@@ -2,7 +2,7 @@
 title: NFS-Client-Provisioner
 description: Notes on Baremetal K8s Dynamic Volume storage with NFS
 published: true
-date: 2020-04-25T12:51:14.971Z
+date: 2020-04-25T12:56:52.473Z
 tags: 
 ---
 
@@ -16,7 +16,19 @@ The tipping point was attempting to install prometheus as a logging platform, wh
 I would prefer to have a single provisioner with the necessary access to allocate volumes across the platform. An alternative would be to provision a unique storage class per namespace with the overhead of one NFS-Client-provisioner in each.
 
 ## ClusterRoles vs Roles
-Cluster roles (as the name suggests) add cluster-wide permissions. I took a first pass at this with little success below:
+Cluster roles (as the name suggests) add cluster-wide permissions. I took a first pass at this with little success below.
+
+Plaintext overview:
+```
+Create a role with cluster wide permissions necessary to manage storage
+
+---
+
+Now assign this role to the existing nfs-client-provisioner service account. 
+```
+
+
+Yaml File:
 
 ```
 apiVersion: rbac.authorization.k8s.io/v1
@@ -53,6 +65,8 @@ roleRef:
   name: cluster-leader-locking-nfs-provisioner-nfs-client-provisioner
   apiGroup: rbac.authorization.k8s.io
 ```
+
+Where I appear to have gone wrong is in missing some of the additional resources the role needs access to in order to function accross the cluster.
 
 ## Implementation
 
