@@ -2,7 +2,7 @@
 title: NFS-Client-Provisioner
 description: Notes on Baremetal K8s Dynamic Volume storage with NFS
 published: true
-date: 2020-04-25T12:49:53.636Z
+date: 2020-04-25T12:51:14.971Z
 tags: 
 ---
 
