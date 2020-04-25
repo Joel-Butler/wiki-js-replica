@@ -2,7 +2,7 @@
 title: K8s
 description: 
 published: true
-date: 2020-04-19T16:42:45.572Z
+date: 2020-04-25T12:35:46.032Z
 tags: 
 ---
 
@@ -10,3 +10,4 @@ tags:
 
 ## Resources
 * [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+* [NFS-Client-Provisioner](nfs-client-provisioner)
