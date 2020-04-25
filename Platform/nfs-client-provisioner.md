@@ -2,12 +2,12 @@
 title: NFS-Client-Provisioner
 description: Notes on Baremetal K8s Dynamic Volume storage with NFS
 published: true
-date: 2020-04-25T12:49:18.101Z
+date: 2020-04-25T12:49:53.636Z
 tags: 
 ---
 
 # Dynamic Volumes with NFS
-The default <kbd>Helm</kbd> install of <kbd>NFS Client Provisioner</kbd> establishes a role with access to the provided namespace only. However the storage class is registered globally.
+The default Helm install of NFS Client Provisioner establishes a role with access to the provided namespace only. However the storage class is registered globally.
 
 While I had initially opted to leverage a single namespace, I'm increasingly finding holes in this approach. Namespaces provide a really clean way of segmenting from a security standpoint, but also provide a really nice way of keeping things uncluttered as I work on all kinds of rubbish in this platform. 
 
