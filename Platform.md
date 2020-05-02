@@ -2,7 +2,7 @@
 title: Platform Overview
 description: 
 published: true
-date: 2020-04-19T16:23:07.061Z
+date: 2020-05-02T14:41:05.202Z
 tags: 
 ---
 
@@ -10,3 +10,4 @@ tags:
 
 * [Physical Design](design)
 * [Lessons Leared](lessons)
+* [Authentication Architecture](authentication)
