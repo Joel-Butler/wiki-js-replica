@@ -2,8 +2,8 @@
 title: Authentication Architecture
 description: Notes and details on authentication
 published: true
-date: 2020-05-02T14:57:20.468Z
-tags: k8s, authentication, auth0
+date: 2020-05-02T17:05:23.968Z
+tags: auth0, authentication, k8s
 ---
 
 # Authentication
@@ -30,7 +30,7 @@ Internally I need a way to validate API to API calls, and to potentially expose 
 JWT appears to be a common method to allow APIs to validate identity after successful authentication and have some fairly good libraries available across many software platforms. So I think we'll go with this option.
 
 
-## First attemptL Auth0
+## First attempt: Auth0
 
 In looking into authentication solutions I stumbled on Auth0 - a commercial offering that provides authentication as a service, integrating into Google and other social authentication mechanisms while also providing multiple authentication mechanisms under the hood.
 
