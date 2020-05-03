@@ -2,8 +2,8 @@
 title: Home
 description: 
 published: true
-date: 2020-04-25T01:08:43.033Z
-tags: 
+date: 2020-05-03T21:25:00.221Z
+tags: index, introduction, kubernetes
 ---
 
 # Raspberry Pi K8s Stack
@@ -15,7 +15,7 @@ While not everything deployed to the stack can leverage the scalability and flex
 
 ### Deployed so far
 Current applications hosted in this cluster:
-* [Gitea](https://git.jhbutler.info)  - an internal git repo and web front end
+* [Gitea](https://git.jhbutler.info)  - an internal git repo and web front end (offline while I'm migrating NAS drives...)
 * [wiki.js](https://wiki.jhbutler.info) - this wiki.
 * mariadb - the backend database leveraged by the above applications.
 
