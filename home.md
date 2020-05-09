@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2020-05-03T21:25:00.221Z
+date: 2020-05-09T16:54:59.486Z
 tags: index, introduction, kubernetes
 ---
 
@@ -21,6 +21,8 @@ Current applications hosted in this cluster:
 
 ### Future Plans
 * [Location Service](/Apps/FamilyLocation/Overview) - I'd like to replace the geolocation service we use on our family phones with an in-house option where I keep my data rather than some large company.
+
+* [Authentication Validator](/Apps/AuthenticationValidator) - a prototype application testing User and API authentication (both of which I need to make this thing work well).
 
 
 
