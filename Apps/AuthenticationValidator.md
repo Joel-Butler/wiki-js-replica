@@ -2,12 +2,12 @@
 title: Authentication Validator App
 description: Simple test app that provides some test scenarios for validating OAuth2 authentication for users and services.
 published: true
-date: 2020-05-02T17:01:49.880Z
+date: 2020-05-09T16:38:42.413Z
 tags: 
 ---
 
 # Authentication Validator Application
-As part of setting up application authentication with Auth0 using OAuth2 and JWT I need a sandbox application with minimal features where I can prototype this approach and prove it works.
+As part of setting up application authentication with Auth0 using OAuth2 and JWT I need a sandbox application with minimal features where I can prototype this approach and [prove it works](./AuthenticationValidator/Lessons).
 
 ## Requirements
 1. A front end service for user authentication. 
