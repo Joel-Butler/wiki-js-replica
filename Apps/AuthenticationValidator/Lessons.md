@@ -2,7 +2,7 @@
 title: Authentication Validator - lessons
 description: 
 published: true
-date: 2020-05-09T16:52:42.625Z
+date: 2020-05-17T20:08:02.923Z
 tags: 
 ---
 
@@ -25,6 +25,9 @@ I had mistakenly thought JWT might have been a passport-like option for cross ap
 As long as the APIs are part of the same domain/application the token is useful. If they are part of a different application, you need a new token.
 
 Using my theme park token, it would be like me trying to use take my half day pass from Disney and attempting to use this at Universal Studios... I would need a different pass. 
+
+## React notes
+As I'm likely to be leveraging React Native for the forseeable future I've opted to keep notes on this in a distinct location [here](/Platform/Libraries/ReactNative/Notes). 
 
 
 ## Application considerations
