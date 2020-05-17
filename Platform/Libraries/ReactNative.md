@@ -2,7 +2,7 @@
 title: React Native
 description: Notes on React Native and developing for IOS and Android
 published: true
-date: 2020-04-19T16:29:21.342Z
+date: 2020-05-17T19:59:49.655Z
 tags: 
 ---
 
@@ -14,4 +14,4 @@ Like most foundational frameworks React does have a lot to learn beyond the unde
 Initial sources for Learning:
 * [React Native's Documentation](https://reactnative.dev/docs/getting-started)
 * [React JSX documentation](https://reactjs.org/docs/jsx-in-depth.html)
-
+* [My Notes](ReactNative/Notes)
