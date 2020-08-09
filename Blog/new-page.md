@@ -2,7 +2,7 @@
 title: Its been quite a year!
 description: September 2019 - August 2020
 published: true
-date: 2020-08-09T23:52:43.959Z
+date: 2020-08-09T23:54:48.771Z
 tags: 
 editor: markdown
 ---
@@ -11,27 +11,27 @@ editor: markdown
 Straddle in guys, this will be a long one!
 
 So we last left off just as I just started my part time work back in August 2019. I was excited to be out in the world around other adults, earning a small amount of money and contributing to society. It took a little while for all of us to adjust to a new routine, with Joel and the kids having to help out at home more than they are used to. I had to adjust to being on my feet for an entire shift, but I like working hard and I take pride in my work no matter how menial the tasks. 
-![img_5804.jpg](/img_5804.jpg =500x)
+![img_5804.jpg](/img_5804.jpg =300x)
 A few months later Australia started to burn. With one of the worst bushfire seasons in decades, stories of lost homes and injured wildlife made their way all over the world. It was hard to see our home country lose so much, but it was also inspiring to see the strength and determination of our fellow Aussies as they came together to fight the devastation. We were very proud to be Australian, and thankful that our friends and family back home were safe. 
-![img_6754.jpg](/img_6754.jpg)
+![img_6754.jpg](/img_6754.jpg =300x)
 As winter set in here and the Christmas season began, we decided to celebrate in LA with some long time Aussie family friends who also recently moved to the US. It was wonderful to see some familiar faces, listen to some familiar accents and share the experiences of migrating half way across the world. We stayed in an Air B&B in East LA, where we found the most amazing Mexican food and culture. We also explored Hollywood with some other Aussie friends that were vacationing there, and dipped our feet in the Pacific Ocean again at Santa Monica. 
-![img_7747.jpg](/img_7747.jpg)
+![img_7747.jpg](/img_7747.jpg =300x)
 In late February I left Joel and the kids at home while I took a trip back to Australia to celebrate a friends wedding whom I was a bridesmaid for. It was also a great excuse to take some extra time to catch up with family. It was my first time traveling overseas alone,  so I was a little nervous. I also had to update my Visa at the US consulate while I was in Australia, which added to my nerves. I usually rely on Joel's knowledge and let him take the lead on these kind of things, but this time I had to do it myself (Joel helped with the prep work). I managed to navigate the airports and find my way back to Australia, spending the first week in Brisbane with my sister-in-law and meeting my new niece for the first time. The weather was amazing and we had such a good time. It went way too quickly and I was sad to be moving on too soon. 
-![img_4380.jpg](/img_4380.jpg)
+![img_4380.jpg](/img_4380.jpg =300x)
 After a quick flight change I arrived in Newcastle and was picked up by my parents. I spent the next week catching up with family and friends - spending time with my brother out on his boat, having lunch at the wineries with a friend, and also attending all the pre-wedding events for the bride-to-be. During this time I also had my interview at the US consulate in Sydney. Dad generously drove me down, but there was no parking so he had to drive around the block until I was done. We only had one small problem - there was a particular document missing that was needed to approve my Visa, but after a call to Joel it was emailed through to the consulate and the Visa came a few days later. That was a huge relief, I could return to my family again!
 The wedding came and we had such a lovely day. The bride was beautiful and it was a fun and relaxed day. I got to catch up with even more friends and also meet my sister's daughter - another new niece!
-![img_9004-effects.jpg](/img_9004-effects.jpg)
-![img_0653.jpg](/img_0653.jpg)
+![img_9004-effects.jpg](/img_9004-effects.jpg =300x)
+![img_0653.jpg](/img_0653.jpg =300x)
 Then the pandemic started....well technically it started back in November, but it started to hit the rest of the world. Flights were being cancelled and boarders were being shut down. Even though I had my Visa, I wasn't entirely sure they would let me back into the US. They were accepting citizens returning home but I am not technically a citizen. I'm not even a permanent resident, I'm only a temporary resident. There was also a hitch with the airline where I couldn't check in online (due to my new visa number) and I had to upgrade my seat or sit in a 'small seat' for the first leg of the 14 hr flight. I kept telling myself worst case I head back to my parents and spend some more time with family, so its not really that bad. I did find out that the very next day the airline I was flying with grounded all international flights! I manage to make it back to the US, and at immigration when I was asked the reason for my visit I cleverly said 'returning to my country of residence'. I then explained my husband and children were in the country and I had taken a quick vacation back to Australia. They let me back in and I was very relieved. Joel was also very relieved, he and the kids had been managing very well without me but they missed me and were happy to have me back. 
-![img_0735.jpg](/img_0735.jpg)
+![img_0735.jpg](/img_0735.jpg =300x )
 After arriving home I decide to quarantine for two weeks just in case I came into contact with COVID while being on a busy flight home. The kid's schools had already shut down, which was originally for a few weeks. We spent the time relaxing at home, and I discovered a joy for jigsaw puzzles. Making order out of chaos really appeals to me. Soon though, 'school shut down' became 'remote learning' as we came to the realization that this pandemic isn't going away anytime soon, and that the schools will be closed for the rest of the school year. This was just chaos, especially for families with parents that were still working. Essential workers still had to work but had no access to schools or childcare. We were very fortunate that Joel's work allowed him to work from home, and that our children are older and a little more independent. I however still went to work at the grocery store. In one way it kept me sane (being able to leave the house and interact with other people) but it was also a lot harder. Demand was high and we were also short on staff. We wear masks while working (and still do to this day), and as soon as I get home my uniform goes in the washing machine and I have a really good shower. 
 
 The kids did pretty well with remote learning, but I did not. The teachers were amazing, and there was no pressure from them. For Kate she had some work to do and had 2 video meetings a week. James on the other hand had work for each subject and we had trouble keeping up. In the end his school said that only Math and ELA (English) were compulsory and that the other subjects were optional. This made it a lot easier for us. We helped James create a schedule each morning, fitting in school work, eating, games and chores. He was then able  to work through the schedule himself, and we could assist with anything left over in the evening. At the end of the school year reports came home, along with a certificate for the parents for helping their kids meet the online learning requirements. Joel didn't think much of it but I got really protective of 'my certificate' as I felt all my effort was noticed and validated. Unfortunately we all assumed school will be back in the fall (September) but at this stage we are still unsure exactly how that will work. There is talk of a 'hybrid model' where kids will start back part time, but that could change at any time. 
-![img_1158.jpg](/img_1158.jpg)
+![img_1158.jpg](/img_1158.jpg =300x)
 We are also keeping up our  Taekwondo classes through this time. We moved the dining table and set up a laptop so we could still attend online Taekwondo class. There is just enough space for two of us to participate, so the adult and kids classes are separate. It has been good to have some things continue during this time.
-![img_0794.jpg](/img_0794.jpg)
+![img_0794.jpg](/img_0794.jpg =300x)
 Chaos continued to erupt here when yet another person of color (George Floyd) was killed due to unnecessary police brutality. This sparked major protests all over the US, and also in other countries over the world, and began the Black Lives Matter movement. Our small town had a 'peaceful vigil' that James and I managed to attend (Joel and Kate were unwell so they stayed home). We wore our masks and held up signs, kept social distance, and listened to other people of color share their stories and experiences. I really hope that this can bring some change and balance some of the inequities in our current society.
-![img_0996.jpg](/img_0996.jpg)
-![img_1023.jpg](/img_1023.jpg)
+![img_0996.jpg](/img_0996.jpg =300x)
+![img_1023.jpg](/img_1023.jpg =300x)
 As Joel and I pass our 19th wedding anniversary, I think back on our lives together. I never would have thought we would end up here in these times. Life is unpredictable, but I am sure glad we are on this journey together.  As we look forward we hope that life will eventually go back to 'normal'. We miss our date nights out, we miss our vacations, we miss time with our friends. We are also thankful that we are healthy, and that we still have money coming in. Stay safe everyone!
-![img_20200704_190336.jpg](/img_20200704_190336.jpg)
+![img_20200704_190336.jpg](/img_20200704_190336.jpg =300x)
