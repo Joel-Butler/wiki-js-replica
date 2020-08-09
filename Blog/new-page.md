@@ -2,7 +2,7 @@
 title: Its been quite a year!
 description: September 2019 - August 2020
 published: true
-date: 2020-08-09T23:49:23.895Z
+date: 2020-08-09T23:52:43.959Z
 tags: 
 editor: markdown
 ---
@@ -11,7 +11,7 @@ editor: markdown
 Straddle in guys, this will be a long one!
 
 So we last left off just as I just started my part time work back in August 2019. I was excited to be out in the world around other adults, earning a small amount of money and contributing to society. It took a little while for all of us to adjust to a new routine, with Joel and the kids having to help out at home more than they are used to. I had to adjust to being on my feet for an entire shift, but I like working hard and I take pride in my work no matter how menial the tasks. 
-![img_5804.jpg](/img_5804.jpg)
+![img_5804.jpg](/img_5804.jpg =500x)
 A few months later Australia started to burn. With one of the worst bushfire seasons in decades, stories of lost homes and injured wildlife made their way all over the world. It was hard to see our home country lose so much, but it was also inspiring to see the strength and determination of our fellow Aussies as they came together to fight the devastation. We were very proud to be Australian, and thankful that our friends and family back home were safe. 
 ![img_6754.jpg](/img_6754.jpg)
 As winter set in here and the Christmas season began, we decided to celebrate in LA with some long time Aussie family friends who also recently moved to the US. It was wonderful to see some familiar faces, listen to some familiar accents and share the experiences of migrating half way across the world. We stayed in an Air B&B in East LA, where we found the most amazing Mexican food and culture. We also explored Hollywood with some other Aussie friends that were vacationing there, and dipped our feet in the Pacific Ocean again at Santa Monica. 
