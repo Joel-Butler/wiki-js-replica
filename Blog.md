@@ -2,7 +2,7 @@
 title: Blog Posts
 description: 
 published: true
-date: 2020-08-10T00:02:42.697Z
+date: 2020-08-10T00:02:54.963Z
 tags: 
 editor: markdown
 ---
