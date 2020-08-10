@@ -2,14 +2,13 @@
 title: Blog Posts
 description: 
 published: true
-date: 2020-08-10T00:01:39.436Z
+date: 2020-08-10T00:02:42.697Z
 tags: 
 editor: markdown
 ---
 
 # Blog - table of contents
 
-* [new update](new-aug2020)
-* [An Inconceivable Year](Sept2019-Aug2020)
+* [An Inconceivable Year (September 2019 - August 2020)](Sept2019-Aug2020)
 * [Up and running (August 2020)](up_and_running)
 * [Historic - October 2017 - September 2019](http://intransit.jhbutler.net)
