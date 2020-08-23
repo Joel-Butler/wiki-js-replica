@@ -2,7 +2,7 @@
 title: Deploying OSM
 description: 
 published: true
-date: 2020-08-23T16:05:26.486Z
+date: 2020-08-23T16:09:23.397Z
 tags: 
 editor: markdown
 ---
@@ -32,4 +32,6 @@ To get this all working I set up a few new repositories in docker hub to hold th
 3. [OSM-init](https://hub.docker.com/repository/docker/joelanz/osm-init-arm64)
 4. [Envoy](https://hub.docker.com/repository/docker/joelanz/envoy)
 
+With some modifications to the helm scripts and deployments I managed to get what appears to be working deployment up annd running. Testing this caused some additional challenges I'm yet to work out though.
 
+## Step 3 - testing OSM.
