@@ -2,7 +2,7 @@
 title: Deploying OSM
 description: 
 published: true
-date: 2020-08-23T16:09:23.397Z
+date: 2020-08-23T16:09:44.142Z
 tags: 
 editor: markdown
 ---
@@ -17,7 +17,7 @@ Micrsoft just realeased a new offering in this space that is apparently much sim
 
 2. Ensure that you have sufficient swap space configured. My 4GB pi 4 was configured as part of a kubernetes cluster (with swap disabled) so I did need to ensure that I'd allocated sufficient swap space for the bazel compiler to work. 
 
-## Step 2 - a working Osm deployment.
+## Step 2 - A working Osm deployment.
 Like a lot of other kubernetes offerings OSM is a mix up of code and pre-published docker images. The code can be compiled for non-x86 systems, but the docker images used in the built process or embedded in code are x86 specific. 
 
 As  a result I had to modify a bit of the OSM code to make thints work out. 
@@ -34,4 +34,4 @@ To get this all working I set up a few new repositories in docker hub to hold th
 
 With some modifications to the helm scripts and deployments I managed to get what appears to be working deployment up annd running. Testing this caused some additional challenges I'm yet to work out though.
 
-## Step 3 - testing OSM.
+## Step 3 - Testing the OSM deployment with a mock mesh. 
