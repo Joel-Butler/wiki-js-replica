@@ -2,7 +2,7 @@
 title: Deploying OSM
 description: 
 published: true
-date: 2020-08-23T16:09:44.142Z
+date: 2020-08-23T16:10:11.244Z
 tags: 
 editor: markdown
 ---
@@ -34,4 +34,4 @@ To get this all working I set up a few new repositories in docker hub to hold th
 
 With some modifications to the helm scripts and deployments I managed to get what appears to be working deployment up annd running. Testing this caused some additional challenges I'm yet to work out though.
 
-## Step 3 - Testing the OSM deployment with a mock mesh. 
+## Step 3 - Testing OSM with a small mesh. 
