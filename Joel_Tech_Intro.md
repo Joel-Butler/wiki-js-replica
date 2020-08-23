@@ -2,7 +2,7 @@
 title: Intro
 description: 
 published: true
-date: 2020-08-02T17:05:10.667Z
+date: 2020-08-23T15:43:44.385Z
 tags: 
 editor: markdown
 ---
@@ -19,6 +19,7 @@ Current applications hosted in this cluster:
 * [Gitea](https://git.jhbutler.info)  - an internal git repo and web front end (offline while I'm migrating NAS drives...)
 * [wiki.js](https://wiki.jhbutler.info) - this wiki.
 * mariadb - the backend database leveraged by the above applications.
+* [osm](https://openservicemesh.io/) - which I think I *almost* have up and running. [Hitting some issues that still need to be resolved](/Platform/osm).
 
 ### Future Plans
 * [Location Service](/Apps/FamilyLocation/Overview) - I'd like to replace the geolocation service we use on our family phones with an in-house option where I keep my data rather than some large company.
