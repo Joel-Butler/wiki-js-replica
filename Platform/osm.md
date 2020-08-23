@@ -2,7 +2,7 @@
 title: Deploying OSM
 description: 
 published: true
-date: 2020-08-23T16:10:11.244Z
+date: 2020-08-23T16:19:51.017Z
 tags: 
 editor: markdown
 ---
@@ -27,11 +27,23 @@ As  a result I had to modify a bit of the OSM code to make thints work out.
 * The helm charts responsible for installing the platform referenced an x86 only version of envoy.
 
 To get this all working I set up a few new repositories in docker hub to hold the arm64 specific variants of thes systems.
-1. [Zipkin](https://hub.docker.com/repository/docker/joelanz/zipkin)
+1. [Zipkin](https://hub.docker.![osm-up-and-running.png](/osm/osm-up-and-running.png)com/repository/docker/joelanz/zipkin)
 2. [OSM Controller](https://hub.docker.com/repository/docker/joelanz/osm-controller-arm64) - this took some tweaks to the OSM code as the Makefile was configured to build for x86 only. 
 3. [OSM-init](https://hub.docker.com/repository/docker/joelanz/osm-init-arm64)
 4. [Envoy](https://hub.docker.com/repository/docker/joelanz/envoy)
 
 With some modifications to the helm scripts and deployments I managed to get what appears to be working deployment up annd running. Testing this caused some additional challenges I'm yet to work out though.
 
+![osm-up-and-running.png](/osm/osm-up-and-running.png)
+
 ## Step 3 - Testing OSM with a small mesh. 
+In terms of testing the OSM mesh I thought to introduce a simple back end service and front end webserver that I could set up and then overlay the mesh to test how it works. 
+
+I built out a simple system called [Mesh-test](https://github.com/Joel-Butler/mesh-test) with helm charts and docker images to manage deployment. 
+
+The system has a simple back-end service that generates a random number when called on port 8081 for url "/api". The front end calls this service and renders a simple message.
+
+![mesh-test-frontpage.png](/osm/mesh-test-frontpage.png)
+
+
+
