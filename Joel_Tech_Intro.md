@@ -2,12 +2,12 @@
 title: Intro
 description: 
 published: true
-date: 2020-08-23T15:43:44.385Z
+date: 2020-09-06T19:03:49.456Z
 tags: 
 editor: markdown
 ---
 
-# Raspberry Pi K8s Stack
+# Kubernetes at Home with some Raspberry Pi's
 I made this small wiki system as a way of experimenting with Kubernetes on a series of Raspberry Pi 4 units, and plan to use this site to document [lessons learned](/Platform/Lessons) and further experiments.
 
 So far the [design](/Platform/Design) consists of a cluster of 3 nodes (one shared master/worker node) and an NFS storage backend for stateful data such as the database powering this wiki.
