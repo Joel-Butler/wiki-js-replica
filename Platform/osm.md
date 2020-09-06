@@ -2,7 +2,7 @@
 title: Deploying OSM
 description: 
 published: true
-date: 2020-08-23T16:19:51.017Z
+date: 2020-09-06T19:40:00.620Z
 tags: 
 editor: markdown
 ---
@@ -45,5 +45,5 @@ The system has a simple back-end service that generates a random number when cal
 
 ![mesh-test-frontpage.png](/osm/mesh-test-frontpage.png)
 
-
+Unfortunately that's about as far as I've managed to get. While I can successfully initiate OSM in the mesh-test namespace built for this purpse, things start to fall apart. I can then observe the envoy sidecars injected into the working containers, at which point everything struggles to communicate. From what I can tell envoy needs some additional information on routes that it is not receiving from the OSM controller, so there is likely some additonal information needed to be passed through the SMI [traffic Access Control](https://github.com/servicemeshinterface/smi-spec/blob/master/apis/traffic-access/traffic-access-WD.md) and [traffic specs](https://github.com/servicemeshinterface/smi-spec/blob/master/apis/traffic-specs/traffic-specs-WD.md) that I'm missing. Being a bit exhausted after getting this far I'm going to put this aside for now and revisit when I have a bit more headspace to troubleshoot this further. 
 
