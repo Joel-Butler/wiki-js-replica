@@ -2,7 +2,7 @@
 title: Design
 description: 
 published: true
-date: 2020-09-07T13:41:34.058Z
+date: 2020-09-07T13:42:12.364Z
 tags: design, k8s, kubernetes
 editor: markdown
 ---
@@ -83,7 +83,7 @@ After many deploy and tear down exercises I've begun leveraging Helm v3 for depl
 I have created a public GitHub repository hosting my customized charts (including this wiki, and the git repository gitea): https://github.com/Joel-Butler/k8s-charts 
 while I keep some of the more sensitive customization data locally, these charts are the underlying deployments that drive this site. 
 
-**Note**: I've intentionally kept secrets out of both the public and private git repository. For now these are manually injected. I'd like to work out a more robust solution as part of establishing a [CICD](CICD) pipeline. More on that later though. 
+**Note**: I've intentionally kept secrets out of both the public and private git repository. For now these are manually injected. I'd like to work out a more robust solution as part of establishing a [CICD](./CICD) pipeline. More on that later though. 
 
 
 
