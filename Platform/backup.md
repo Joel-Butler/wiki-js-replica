@@ -2,7 +2,7 @@
 title: Platform Backup
 description: 
 published: true
-date: 2020-09-07T15:26:48.048Z
+date: 2020-09-07T15:31:42.903Z
 tags: 
 editor: markdown
 ---
@@ -30,7 +30,7 @@ I need to ensure I back up (and store encrypted):
     * Git repos.
     
 ## Steps
-1. Build a docker image with the necessary clients to establish this backup. Namely: Etcd, postgresql-client, mariadb-client and we'll need a way to mount NFS stores as well. 
+1. Build a docker image with the necessary clients to establish this backup. Namely: [etcd](https://etcd.io/docs/v3.4.0/op-guide/recovery/), [postgresql-client](https://www.postgresql.org/docs/current/backup.html), [mariadb-client](https://mariadb.com/kb/en/backup-and-restore-overview/) and we'll need a way to mount NFS stores as well. 
 2. Manually prove this out (step-by-step establish a backup of each item), then encrypt and save the output. I'm going to store this content on my google drive, as I already pay for business grade cloud storage there.
 3. Automate the process (inject credentiials via environment variables and see if we can set this thing to auto-run).
 
