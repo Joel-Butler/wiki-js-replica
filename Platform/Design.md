@@ -2,8 +2,9 @@
 title: Design
 description: 
 published: true
-date: 2020-04-19T16:22:11.444Z
-tags: 
+date: 2020-09-07T13:39:53.014Z
+tags: design, k8s, kubernetes
+editor: markdown
 ---
 
 # Cluster design
@@ -70,6 +71,8 @@ The first option is fairly simple but does require the worker nodes to exist on 
 The second does not have this limitation but at the point where cut-over occurs there is a brief disruption of network connectivity.
 
 Having no need for a more complex routed solution, and with only 3 worker nodes the first option is sufficient for this deployemnt. 
+
+**Update**: After scaling up to 5 nodes, I needed to expand to use a second gigabit switch in order to have sufficient network ports to keep everything attached. MetalLB held up as expected. The Layer 2 implementation appears to be a quite robust and simple solution for any cluster with a single layer 2 architecture (i.e. all worker nodes behind a router on a single switched network). 
 
 ## Ingress
 I've settled on Nginx as my preferred ingress controller for now. Envoy based solutions look promising but I'm yet to see good coverage across ARM devices.
