@@ -2,8 +2,9 @@
 title: Platform Overview
 description: 
 published: true
-date: 2020-05-02T14:41:05.202Z
+date: 2020-09-07T13:30:42.973Z
 tags: 
+editor: markdown
 ---
 
 # Platform Overview
@@ -11,3 +12,4 @@ tags:
 * [Physical Design](design)
 * [Lessons Leared](lessons)
 * [Authentication Architecture](authentication)
+* [Cross platform Development with Docker](docker-cross-platform)
