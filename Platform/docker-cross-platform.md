@@ -2,7 +2,7 @@
 title: Cross Platform Development with Docker
 description: 
 published: true
-date: 2020-09-07T14:00:44.879Z
+date: 2020-09-07T14:09:13.615Z
 tags: 
 editor: markdown
 ---
