@@ -2,7 +2,7 @@
 title: Platform Backup
 description: 
 published: true
-date: 2020-09-07T15:31:42.903Z
+date: 2020-09-07T16:09:39.537Z
 tags: 
 editor: markdown
 ---
@@ -36,5 +36,4 @@ I need to ensure I back up (and store encrypted):
 
 ## Open Questions
 1. Stateful backup - I am likely going to need to pause my statefulsets somehow in order to back up their data (keeping the DB and platform in sync appropriately).
-
-  
+2. Etcd requires backup to occur on an etcd member. This may either require backup to run on the master (possible via directives on a yaml file) or the pod itself will need to be able to join the etcd cluster for the purpose of backing it up (the first seems easier for now) - as  a test run we'll use the manual copy of the master database via ssh.
