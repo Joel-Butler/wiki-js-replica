@@ -2,7 +2,7 @@
 title: Authentication Validator App
 description: Simple test app that provides some test scenarios for validating OAuth2 authentication for users and services.
 published: true
-date: 2020-10-17T15:24:18.658Z
+date: 2020-10-17T15:25:03.714Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-02T16:52:30.723Z
@@ -41,7 +41,7 @@ Plenty more to do here but that's a good enough start.
 
 As part of setting up application authentication with Auth0 using OAuth2 and JWT I need a sandbox application with minimal features where I can prototype this approach and [prove it works](Lessons).
 
-## Requirements
+### Requirements
 1. A front end service for user authentication. 
 2. Two back-end services:
 	1. One service will be used to test user and service JWT authenticaiton and role/permission data passed from Auth0. It will reply with success/fail and role information.
