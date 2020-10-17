@@ -2,7 +2,7 @@
 title: Authentication Validator App
 description: Simple test app that provides some test scenarios for validating OAuth2 authentication for users and services.
 published: true
-date: 2020-10-17T15:09:00.750Z
+date: 2020-10-17T15:16:25.269Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-02T16:52:30.723Z
@@ -18,6 +18,21 @@ After looking through several options it appears the simplest approach here is t
 ### API Session host
 Thankfully this bit uses old-school stuff. We authenticate a user, and store session data the traditional way. The user routes through the API server(s) for back end resources hosted as microservices, but that is invisible to the front-end consumer. I'll use a database for session storage to ensure I can load balance across multiple API instances (otherwise what's the point of all this stuff).
 
+Once I get OSM up and running I can further secure communication between the front and back-end hosts. Given these are literally a single layer 2 hop away from each other, this isn't a huge risk - but I'd like to address it as soon as is feasible anyway. I don't like gaps. 
+
+### Authentication
+Authentication will be through a traditional app authentication cycle. As the family is all on google I'll start with that as my authentication source, the less credentials I need to store the better :-)
+
+### First step - Can I authenticate and consume a service	
+Using the Sandbox repo, can I set up a front end API service that can authenticate users via local authentication and via google authentication if time permits. After authentication, can I then allow only authorized users to consume a back-end number generation service (no JWT yet).
+
+### Second step - Can I make the service limit who should access. 
+Using the sandbox repo, can I set up short term JWT session tokens between the front end API and back end service. 
+
+Expected outcome: If I expose the service stand-alone, it should forbid access, while access through the API should be allowed (ensuring the API manages control to the service, and the service itself is capable of quickly assessing and denying other connections).
+
+### More to come...
+Plenty more to do here but that's a good enough start.
 
 
 ## Old Thoughts
