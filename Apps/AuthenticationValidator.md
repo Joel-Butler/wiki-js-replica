@@ -2,7 +2,7 @@
 title: Authentication Validator App
 description: Simple test app that provides some test scenarios for validating OAuth2 authentication for users and services.
 published: true
-date: 2020-10-17T15:16:25.269Z
+date: 2020-10-17T15:24:18.658Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-02T16:52:30.723Z
@@ -19,6 +19,8 @@ After looking through several options it appears the simplest approach here is t
 Thankfully this bit uses old-school stuff. We authenticate a user, and store session data the traditional way. The user routes through the API server(s) for back end resources hosted as microservices, but that is invisible to the front-end consumer. I'll use a database for session storage to ensure I can load balance across multiple API instances (otherwise what's the point of all this stuff).
 
 Once I get OSM up and running I can further secure communication between the front and back-end hosts. Given these are literally a single layer 2 hop away from each other, this isn't a huge risk - but I'd like to address it as soon as is feasible anyway. I don't like gaps. 
+
+![sandbox-auth.png](/apps/sandbox/sandbox-auth.png)
 
 ### Authentication
 Authentication will be through a traditional app authentication cycle. As the family is all on google I'll start with that as my authentication source, the less credentials I need to store the better :-)
