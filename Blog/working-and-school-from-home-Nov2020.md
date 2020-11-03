@@ -2,7 +2,7 @@
 title: Working and doing school from home
 description: In which Joel, James and Kate learn about meeting exhaustion. 
 published: true
-date: 2020-11-03T15:25:59.687Z
+date: 2020-11-03T15:27:43.150Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-03T15:25:59.687Z
@@ -14,7 +14,7 @@ Seriously though, work and school from home is hard work. I think I've managed t
 
 They get bored though, and their ingenuity at finding new ways to muck up is starting to leave me... impressed. 
 
-![pxl_20201103_152156300.jpg](/blog/pxl_20201103_152156300.jpg)
+![joelandkids-cropped.jpg](/blog/joelandkids-cropped.jpg)
 
 Kate managed to figure out that the best way to 'look' like you are paying attention is to run a youtube window beside your zoom meeting, and I caught James in what appeared to be a comfortable nap during a class meeting a few weeks ago. 
 
