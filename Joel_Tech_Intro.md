@@ -2,7 +2,7 @@
 title: Intro
 description: 
 published: true
-date: 2020-10-17T15:03:02.460Z
+date: 2020-11-21T13:25:23.765Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-02T17:05:10.667Z
@@ -21,7 +21,7 @@ Current applications hosted in this cluster:
 * [wiki.js](https://wiki.jhbutler.info) - this wiki.
 * mariadb - the backend database leveraged by the above applications.
 * [osm](https://openservicemesh.io/) - which I think I *almost* have up and running. [Hitting some issues that still need to be resolved](/Platform/osm). Testing this required building out a [simple set of services in go](https://github.com/Joel-Butler/mesh-test). 
-* [Jira](https://jira.jhbutler.info) - Java applications tend to be a bit more memory heavy but so far this appears to be running well using a Postgres back-end and a recompiled docker image courtesy of [Atlassian's docker library](https://bitbucket.org/atlassian-docker/docker-atlassian-jira/). We've licensed this and are looking at using  this to track some home projects as well as my work in this space. 
+*  ~~[Jira](https://jira.jhbutler.info) - Java applications tend to be a bit more memory heavy but so far this appears to be running well using a Postgres back-end and a recompiled docker image courtesy of [Atlassian's docker library](https://bitbucket.org/atlassian-docker/docker-atlassian-jira/). We've licensed this and are looking at using  this to track some home projects as well as my work in this space.~~ After trying this for a while, I came to the conclusion that the overall design of Jira is not really a great fit for this platform. It worked, but bootup times were long, the lucene database didn't like my available storage solution (NFS) and the application consumed way to many of my avaiable resources. I've moved to a cloud hosted platform for Jira instead. 
 
 
 ### Future Plans
