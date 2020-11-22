@@ -2,7 +2,7 @@
 title: Intro
 description: 
 published: true
-date: 2020-11-21T13:25:23.765Z
+date: 2020-11-22T13:03:14.549Z
 tags: 
 editor: markdown
 dateCreated: 2020-08-02T17:05:10.667Z
@@ -25,9 +25,9 @@ Current applications hosted in this cluster:
 
 
 ### Future Plans
-* [Location Service](/Apps/FamilyLocation/Overview) - I'd like to replace the geolocation service we use on our family phones with an in-house option where I keep my data rather than some large company.
+* [The Sandbox](Apps/Sandbox/Overview) - This is the testing location for all microservice 'stuff' I'd like to have up and running. Right now the focus is on [Authentication](Platform/authentication), with some changes in approch documented [here](/Apps/AuthenticationValidator).
 
-* [Authentication Validator](/Apps/AuthenticationValidator) - a prototype application testing User and API authentication (both of which I need to make this thing work well).
+* [Location Service](/Apps/FamilyLocation/Overview) - I'd like to replace the geolocation service we use on our family phones with an in-house option where I keep my data rather than some large company.
 
 * [Game Night App](/Apps/GameNight) an phone and tablet based interactive UI for some fun with my family. 
 
