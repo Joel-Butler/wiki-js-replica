@@ -2,18 +2,31 @@
 title: Authentication Architecture
 description: Notes and details on authentication
 published: true
-date: 2020-05-02T17:05:23.968Z
+date: 2020-11-22T13:26:33.926Z
 tags: auth0, authentication, k8s
+editor: markdown
+dateCreated: 2020-05-02T14:57:20.468Z
 ---
 
 # Authentication
 
 ## Overview
-Authentication is complex. Looking into the manner most microservice platforms manage this, JWT appears to be the primary method of determining whether a front-end user or back-end service is identified and permitted to access a given component within the platform.
+Authentication is complex. My initial design for a microservice platform is to establish a small microcosm of systems that interact while being sure:
+1. Each system can filter requests so that only *allowed* clients can access a given service. 
+2. For users, we can establish who each client is and provide some level of session and unique service experience based on the users identity. 
 
-There are many approaches to this, but as far as my design goes I believe authentication should occur centrally, permissions against identities should be defined within the microservice or via a network layer middleware.
+This is all pretty common, but in a microservices environment we want to establish this with the minimum amount of overhead for each tiny service, while also keeping things secure. 
 
-Given the limited memory and compute space available to me in my small cluster, I'm not terribly keen to introduce new layers to manage authentication. Instead I'll aim for a common library for per-service validation and see if we can leverage kubernetes secrets to define at container boot who should have access to services and sub paths. 
+## The First (failed) Approach
+*If it sounds too simple to be true - it probably is.*
+
+JWT appeared to be a good defacto standard for microservice access. There is good support for the process and it is relatively simple and straight forward.
+
+Unfortunately a key flaw in this methodology is that JWT objects are not revokable (they can time out, but that is about it), and once issued information cannot be updated without issuing a new token. 
+
+As a result I believe the ideal use for these tokens is as the back-end to a front end gateway based authentication service. This gives a lightweight method for access to the back-end services and we can establish a much lower threshold for token renewal internal to the kubernetes cluster.
+
+For Clients, we will likely use a standard OAuth2 authentication with a few back-ends for good measure (for now I'm going to set up Google). 
 
 ## Authentication Scenarios
 
@@ -25,18 +38,10 @@ In this instance I'd like to authenticate clients against my goolgle domain, usi
 
 Internally I need a way to validate API to API calls, and to potentially expose some API access to external server based systems (no plans yet, but having the ability to do this seems prudent).
 
-### JWT - potential mechanism
+## Solutions
+While there are some good external solutions out there, I think the simplest approach here is to build a dedicated authentication microservice that is able to both authenticate users and generate internal JWT tokens for use with back-end services. While we could build this into the front end Nginx gateway, I think it might be prudent to keep the authentication layer further away from the internet, so we'll place this an internal router in between the gateway and back end services. 
 
-JWT appears to be a common method to allow APIs to validate identity after successful authentication and have some fairly good libraries available across many software platforms. So I think we'll go with this option.
-
-
-## First attempt: Auth0
-
-In looking into authentication solutions I stumbled on Auth0 - a commercial offering that provides authentication as a service, integrating into Google and other social authentication mechanisms while also providing multiple authentication mechanisms under the hood.
-
-Given that this is a one-man project right now, managing authenticaiton compliance is something I'm unlikely to be able to keep on top of, so going to the experts seems like a good move.
-
-Auth0 has [a good example of an API and Mobile app combination](https://auth0.com/docs/architecture-scenarios/mobile-api/part-1) that should be a good place to start reading and building some knowledge.
-
-
+As a result this service will need to be scaleable:
+* Sessions should be stored in a highly responsive database accessible from multiple clients.
+* Actions should be atomic (a client should be able to hop between instances of the service with no impact to function or performance).
 
