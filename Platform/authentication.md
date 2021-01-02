@@ -2,7 +2,7 @@
 title: Authentication Architecture
 description: Notes and details on authentication
 published: true
-date: 2020-11-22T13:26:33.926Z
+date: 2021-01-02T16:53:42.060Z
 tags: auth0, authentication, k8s
 editor: markdown
 dateCreated: 2020-05-02T14:57:20.468Z
@@ -27,6 +27,15 @@ Unfortunately a key flaw in this methodology is that JWT objects are not revokab
 As a result I believe the ideal use for these tokens is as the back-end to a front end gateway based authentication service. This gives a lightweight method for access to the back-end services and we can establish a much lower threshold for token renewal internal to the kubernetes cluster.
 
 For Clients, we will likely use a standard OAuth2 authentication with a few back-ends for good measure (for now I'm going to set up Google). 
+
+## 2nd Attempt: A partial success
+When exploring OAuth2 options, I had started investigating building my own router and authentication engine, but in reality a lot of these things already exist in seperate consumable items. Kubernetes can handle routing via Ingress, and I have a working ingress engine in [ingress-nginx](https://kubernetes.github.io/ingress-nginx/). In investigating this in more detail it appeared that this challenge was already solved at least in part by a microservice [Oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy). The approach is surprisingly straight forward. 
+
+Kubernetes directs Nginx via some additional ingress annotations (and a second limited ingress solely used for authentication) to use the OAuth2-proxy micro-service for authentication. Provided the authentication is successful the ingress engine forwards traffic to the back-end services, and passes basic identity information as some of the **X-Forwarded** header information, which I can then extract. 
+
+The system did require the use of [Redis](https://redis.io/) for storage of the Oauth2 data, so I now have a *limited* deployment of redis available in the cluster (it's not quite as HA as I'd like yet - [more on that later](Redis) once I've had time to document it.
+
+Some additional testing is required before I'm completely confident in this approach (I'd like to ensure trust between the ingress and back-end services to ensure that this process cannot be bypassed as a security exploit), but it is a start and its simplicity is quite attractive. 
 
 ## Authentication Scenarios
 
