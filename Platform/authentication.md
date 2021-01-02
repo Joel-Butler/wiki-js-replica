@@ -2,7 +2,7 @@
 title: Authentication Architecture
 description: Notes and details on authentication
 published: true
-date: 2021-01-02T16:53:42.060Z
+date: 2021-01-02T16:54:31.446Z
 tags: auth0, authentication, k8s
 editor: markdown
 dateCreated: 2020-05-02T14:57:20.468Z
@@ -33,7 +33,7 @@ When exploring OAuth2 options, I had started investigating building my own route
 
 Kubernetes directs Nginx via some additional ingress annotations (and a second limited ingress solely used for authentication) to use the OAuth2-proxy micro-service for authentication. Provided the authentication is successful the ingress engine forwards traffic to the back-end services, and passes basic identity information as some of the **X-Forwarded** header information, which I can then extract. 
 
-The system did require the use of [Redis](https://redis.io/) for storage of the Oauth2 data, so I now have a *limited* deployment of redis available in the cluster (it's not quite as HA as I'd like yet - [more on that later](Redis) once I've had time to document it.
+The system did require the use of [Redis](https://redis.io/) for storage of the Oauth2 data, so I now have a *limited* deployment of redis available in the cluster (it's not quite as robust or [Highly Available](https://redis.io/topics/sentinel) as I'd like yet - [more on that later](Redis) once I've had time to document it.
 
 Some additional testing is required before I'm completely confident in this approach (I'd like to ensure trust between the ingress and back-end services to ensure that this process cannot be bypassed as a security exploit), but it is a start and its simplicity is quite attractive. 
 
