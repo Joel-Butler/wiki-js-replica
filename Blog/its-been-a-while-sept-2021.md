@@ -1,11 +1,11 @@
 ---
-title: It's been a while...
+title: It's been a while... 
 description: 
 published: true
-date: 2021-09-27T00:38:19.721Z
-tags: 2021
+date: 2022-10-18T08:40:59.647Z
+tags: 
 editor: markdown
-dateCreated: 2021-09-26T23:18:52.019Z
+dateCreated: 2022-10-18T08:40:59.647Z
 ---
 
 It has been quite some time since we put something up. There hasn't been a lot of stuff to share duing the pandemic, we'd kept busy with work and managed through as best we could. 
