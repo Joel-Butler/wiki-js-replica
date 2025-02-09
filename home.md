@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-02-09T03:01:33.070Z
+date: 2025-02-09T03:41:33.152Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-01T22:16:16.138Z
@@ -15,3 +15,4 @@ Hi, this website is an old experiment of mine (Joel) with self hosting. It curre
 
 
 ![bloghome.jpg](/bloghome.jpg =500x)
+*(an old photo - I've aged just a bit since 😃)* 
