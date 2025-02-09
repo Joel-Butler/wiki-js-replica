@@ -2,15 +2,16 @@
 title: Home
 description: 
 published: true
-date: 2020-08-02T17:58:19.073Z
+date: 2025-02-09T03:01:10.770Z
 tags: 
 editor: markdown
+dateCreated: 2025-02-01T22:16:16.138Z
 ---
 
 # Welcome
 
-Welcome to the online world of JHButler! Here resides Joel and Heidi,  with stories of our family adventures and hobbies (well, more like Joel's hobbies). 
+Hi, this website is an old experiment of mine (Joel) with self hosting. It currently holds a mix of travel notes and a tech journal I have continued at [techhub.jhbutler.net](https://techhub.jhbutler.net)
 
-We hope you enjoy your time here! 
+
 
 ![bloghome.jpg](/bloghome.jpg =500x)
